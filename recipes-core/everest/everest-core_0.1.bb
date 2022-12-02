@@ -26,7 +26,8 @@ DEPENDS = " \
 
 S = "${WORKDIR}/git"
 
-SRCREV = "${AUTOREV}"
+# SRCREV = "${AUTOREV}"
+SRCREV = "a883cf5a8dc77360f672d0d74822aaea3198fd31"
 PV = "0.1+git${SRCPV}"
 
 do_compile[network] = "1"
